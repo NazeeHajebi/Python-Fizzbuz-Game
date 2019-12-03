@@ -1,5 +1,13 @@
 import pytest
 
 
+def fizz_buzz(number):
+    return str(number)
+
+
 def test_answer():
-    assert 3 == 5
+    assert fizz_buzz(1) == "1"
+    assert fizz_buzz(2) == "2"
+    
+
+
