@@ -8,7 +8,4 @@ def fizz_buzz(number):
         return "fizz"
     elif divisible_by(5):
         return "buzz"
-
-
-
     return str(number)

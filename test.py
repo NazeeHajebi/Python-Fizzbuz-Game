@@ -9,7 +9,6 @@ def test_answer():
     check(15,"fizzbuzz")
 
 
-
 def check(number, expected_result):
     assert fizz_buzz(number) == expected_result
 
