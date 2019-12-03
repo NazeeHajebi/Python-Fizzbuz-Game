@@ -1,9 +1,12 @@
 def fizz_buzz(number):
-    if number%15 ==0:
+    def divisible_by(n):
+        return number%n ==0
+
+    if divisible_by(15):
         return "fizzbuzz"
-    elif number %3 == 0:
+    elif divisible_by(3):
         return "fizz"
-    elif number %5 == 0:
+    elif divisible_by(5):
         return "buzz"
 
 
