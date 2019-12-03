@@ -6,8 +6,12 @@ def fizz_buzz(number):
 
 
 def test_answer():
-    assert fizz_buzz(1) == "1"
-    assert fizz_buzz(2) == "2"
-    
+    check(1, "1")
+    check(2, "2")
+
+
+def check(number, expected_result):
+    assert fizz_buzz(number) == expected_result
+
 
 
